@@ -1,5 +1,5 @@
-import loadPage from "./page-load.js"
+import loadHomePage from "./page-load.js"
 
-loadPage();
+loadHomePage();
 
 console.log("Hello, World!");

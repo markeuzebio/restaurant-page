@@ -1,6 +1,6 @@
 import hamburguer_homepage_image from "./imgs/hamburguer-homepage.png"
 
-function loadPage() {
+function loadHomePage() {
   const h2_subtitle = document.createElement("h2");
   const p_home_paragraph = document.createElement("p");
   const img_homepage = document.createElement("img");
@@ -15,4 +15,4 @@ function loadPage() {
   document.body.appendChild(img_homepage);
 }
 
-export default loadPage;
+export default loadHomePage;
