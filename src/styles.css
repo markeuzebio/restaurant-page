@@ -1,0 +1,15 @@
+.menu-container, .menu-card {
+    display: flex;
+}
+
+.menu-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    margin-top: 20px;
+}
+
+.menu-card {
+    flex-direction: column;
+    align-items: center;
+}

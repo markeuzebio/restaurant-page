@@ -1,5 +1,7 @@
 import hamburguer_homepage_image from "./imgs/hamburguer-homepage.png"
 
+const div_content = document.querySelector("#content");
+
 function loadHomePage() {
   const h2_subtitle = document.createElement("h2");
   const p_home_paragraph = document.createElement("p");
@@ -10,9 +12,9 @@ function loadHomePage() {
   img_homepage.src = hamburguer_homepage_image;
   img_homepage.width = "500";
 
-  document.body.appendChild(h2_subtitle);
-  document.body.appendChild(p_home_paragraph);
-  document.body.appendChild(img_homepage);
+  div_content.appendChild(h2_subtitle);
+  div_content.appendChild(p_home_paragraph);
+  div_content.appendChild(img_homepage);
 }
 
 export default loadHomePage;
